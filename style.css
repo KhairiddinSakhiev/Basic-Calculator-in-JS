@@ -1,0 +1,44 @@
+.txtBox input{
+    width: 94%;
+    font-size: 30px;
+    border-radius: 10px;
+    border-bottom: 1px solid #333;
+    border-top: 1px solid #333;
+    border-left: 0px solid #333;
+    border-right: 0px solid #333;
+    text-align: right;
+    padding: 0 10px;
+}
+.calc{
+    display: flex;
+     flex-wrap: wrap;
+     flex-direction: row-reverse;
+     justify-content: space-between;
+     align-items: center;
+     width: 100%;
+     height:80%;
+     background-color: rgb(27, 90, 146);
+     margin-top:5px; 
+}
+
+.calc button{
+    background-color: rgba(20, 20, 221, 0.918);
+    font-size: 40px;
+    color:white;
+    border-radius: 20px;
+    width: calc(24% - 10px);
+    opacity: 0.5;
+    height: 80px;
+    margin: 59x;
+}
+
+.form{
+    width: 380px;
+    height: 100%;
+    background-color: rgb(113, 109, 119);
+    border-radius: 10px;
+}
+
+#kris{
+     background-color: red;
+}
